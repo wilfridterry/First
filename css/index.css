@@ -7,10 +7,11 @@
 .container {
     width: 1140px;
     margin:  auto;
+    position: relative;
 }
 
 .promo {
-    height: 800px;
+    min-height: 800px;
     background: url('../img/background/main_bg.jpg') center /cover no-repeat;
     padding: 39px 0 62px 0;
 }
@@ -74,7 +75,7 @@ h2.title {
     line-height: 24px;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: auto;
     margin-top: 73px;
@@ -88,6 +89,10 @@ h2.title {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 21px;
+}
+
+.gift .gift_btn {
+    margin-top: 40px;
 }
 
 .more {
@@ -110,12 +115,13 @@ h2.title {
 }
 
 .waiting {
-    height: 604px;
+    min-height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, 
+.details .details_header {
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
@@ -124,7 +130,11 @@ h2.title {
     text-align: center;
 }
 
-.waiting .waiting_divider {
+.details .details_header {
+    color: #fff;
+}
+
+.waiting .waiting_divider, .details .details_devider {
     width: 217px;
     height: 4px;
     background-color: #f9bf3b;
@@ -141,13 +151,12 @@ h2.title {
 }
 
 .waiting .waiting_wrapper {
+    display: flex;
     margin-top: 45px;
+    justify-content: space-between;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;
     width: 339px;
     text-align: center;
 }
@@ -163,4 +172,148 @@ h2.title {
     font-weight: 400;
     text-align: center;
     margin-top: 17px;
+}
+
+.optimization {
+    min-height: 505px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 321px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-top: 20px;
+    margin-left: 321px;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.optimization .optimization_text span {
+    font-weight: 700;
+}
+
+.optimization img {
+    position: absolute;
+    top: -54px;
+    left: -270px;
+    z-index: -1;
+}
+
+.details {
+    min-height: 447px;
+    background: url('../img/background/second_bg.jpg') no-repeat center center/cover;
+    padding: 50px 0;
+}
+
+.details .details_wrapper {
+    display: flex;
+    margin-top: 41px;
+    justify-content: space-around;
+}
+
+.details .details_wrapper .details_item {
+    width: 204px;
+}
+
+.details .details_wrapper .details_item .details_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 50%;
+}
+
+.details .details_wrapper .details_item .details_descr {
+    margin-top: 25px;
+    color: #efefef;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.gift {
+    min-height: 450px;
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+.gift .gift_img, .finish .finish_img {
+    width: 154px;
+    height: 174px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.finish .finish_img {
+    width: 342px;
+    height: 201px;
+}
+
+.gift .gift_descr {
+    width: 50%;
+    margin: 0 auto; 
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.finish {
+    min-height: 400px;
+    padding: 50px 0;
+}
+
+.finish .finish_header {
+    margin-top: 20px;
+    font-family: "Roboto - Black";
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.finish .finish_location {
+    margin-top: 10px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.finish .finish_details {
+    text-align: center;
+}
+
+.footer {
+    min-height: 150px;
+    background-color: #252525;
+    padding: 70px 0;
+}
+
+.footer .footer_links {
+    color: #555;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer .footer_links a {
+    color: #555;
+}
+
+.footer .footer_tel {
+    text-align: center;
+    color: #555;
 }
