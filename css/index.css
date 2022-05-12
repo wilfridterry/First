@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: Roboto, sans-serf;
+}
+
 .container {
     width: 1140px;
     margin:  auto;
@@ -23,9 +27,8 @@
 
 .logo .logo_text {
     color: #fff;
-    font-family: Roboto;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 300;
     text-transform: uppercase;
     text-align: center;
     margin-top: 14px;
@@ -38,8 +41,7 @@ h1 {
 .title {
     font-size: 41px;
     color: #f9bf3b;
-    font-family: "Roboto - Black";
-    font-weight: 400px;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
 }
@@ -50,9 +52,8 @@ h2.title {
 
 .simple .title_big {
     font-size: 80px;
-    color: #fff;
-    font-family: "Roboto - Black";
-    font-weight: 400;
+    color: #fff;;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     margin-top: 21px;
@@ -62,7 +63,6 @@ h2.title {
     padding: 0 15px;
     margin-top: 23px;
     color: #fff;
-    font-family: "Roboto Light";
     font-size: 21px;
     font-weight: 300;
     text-align: center;
@@ -104,7 +104,6 @@ h2.title {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 15px;
-    font-family: "Roboto - Thin";
     text-align: center;
 }
 
@@ -123,9 +122,8 @@ h2.title {
 .waiting .waiting_header, 
 .details .details_header {
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
     text-align: center;
 }
@@ -182,9 +180,8 @@ h2.title {
 .optimization .optimization_header {
     margin-left: 321px;
     color: #299cbd;
-    font-family: "Roboto - Black";
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -237,7 +234,6 @@ h2.title {
     margin-top: 25px;
     color: #efefef;
     text-align: center;
-    font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
 }
@@ -266,7 +262,7 @@ h2.title {
     margin-top: 30px;
     text-align: center;
     font-size: 20px;
-    font-family: Roboto;
+    font-weight: 300;
 }
 
 .finish {
@@ -276,9 +272,8 @@ h2.title {
 
 .finish .finish_header {
     margin-top: 20px;
-    font-family: "Roboto - Black";
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
 }
@@ -286,9 +281,8 @@ h2.title {
 .finish .finish_location {
     margin-top: 10px;
     color: #299cbd;
-    font-family: "Roboto - Black";
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
 }
